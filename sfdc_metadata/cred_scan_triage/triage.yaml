@@ -1,5 +1,8 @@
 clean: false
 production_secret:
 non_production_secret: []
-mock_secret: []
+mock_secret:
+ -
+  id: testSpectralScan://src/download-build-new.sh_1275ec1d15ecfa4b2a668af9cae7dcc358ee8096afd2581565d6f2ae11131504_spectral
+  justification: For testing only
 false_positive: []
