@@ -5,4 +5,11 @@ mock_secret: []
 false_positive:
  -
   id: testSpectralScan://src/password.fakeenv_8d2c063c7f4279b90f038b436d47acaf19ef2a47471c54c9a8aac25cda7da9eb_spectral
+  spectral_id: 8d2c063c7f4279b90f038b436d47acaf19ef2a47471c54c9a8aac25cda7da9eb
+  justification: Production Secret
+ -
+  id: testSpectralScan://src/password.fakeenv_747117b912046281bb04a669d596b73a5b9b67809d16b0f4e7dcd62d081fade4_spectral
+  justification: Production Secret
+ -
+  id: testSpectralScan://src/password.fakeenv_98a8b21596ff88bfe45175afbb04ef8178961d0701bacebec8b009c7f45e0843_spectral
   justification: Production Secret
