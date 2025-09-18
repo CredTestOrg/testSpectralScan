@@ -1,0 +1,6 @@
+production_secret: []
+non_production_secret: []
+mock_secret: []
+false_positive:
+  - id: testSpectralScan://src/password.fakeenv_98a8b21596ff88bfe45175afbb04ef8178961d0701bacebec8b009c7f45e0843_spectral
+    justification: Production Secret
